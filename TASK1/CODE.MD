@@ -26,21 +26,40 @@
  ##FLOW CHART
 Here is the University Scholarship Allocation Flowchart in Mermaid, line by line, with each step explained.
 
-## Flowchart (Mermaid Code)
+ 
+flowchart TD
+    A([Start])
+    B[/Enter number of applicants/]
+    C[/Enter applicant details/]
+    D{Aggregate marks >= 75%?}
+    E{All subject marks >= 60%?}
+    F{Attendance >= 75%?}
+    G{Annual income <= 250000?}
+    H[Store applicant as eligible]
+    I[Mark applicant as ineligible]
+    J{More applicants?}
+    K[Sort eligible applicants by merit and tie-break rules]
+    L[/Display scholarship merit list/]
+    M([Stop])
 
-1. Start — Begin the program.
-2. Enter number of applicants — Read how many students applied.
-3. Enter applicant details — Read name, application ID, marks, attendance, and income.
-4. Check aggregate marks — Are the marks at least 75%?
-5. Check subject marks — Is every subject mark at least 60%?
-6. Check attendance — Is attendance at least 75%?
-7. Check income — Is annual family income ₹2,50,000 or less?
-8. Store eligible applicant — Save the applicant if all conditions pass.
-9. Mark applicant as ineligible — Reject the applicant if any condition fails.
-10. Check for more applicants — If yes, repeat the input and eligibility checks.
-11. Sort eligible applicants — Rank by aggregate marks, minimum subject marks, attendance, lower income, and application ID.
-12. Display merit list — Print the final scholarship rankings.
-13. Stop — End the program.
+    A --> B
+    B --> C
+    C --> D
+    D -- Yes --> E
+    D -- No --> I
+    E -- Yes --> F
+    E -- No --> I
+    F -- Yes --> G
+    F -- No --> I
+    G -- Yes --> H
+    G -- No --> I
+    H --> J
+    I --> J
+    J -- Yes --> C
+    J -- No --> K
+    K --> L
+    L --> M
+
  
 ## 5. Sample Input
 
