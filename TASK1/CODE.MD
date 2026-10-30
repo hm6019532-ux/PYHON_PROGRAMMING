@@ -24,9 +24,7 @@
 8. Stop.
 
  ##FLOW CHART
-Here is the University Scholarship Allocation Flowchart in Mermaid, line by line, with each step explained.
-
- 
+---mermaid 
 flowchart TD
     A([Start])
     B[/Enter number of applicants/]
@@ -41,7 +39,7 @@ flowchart TD
     K[Sort eligible applicants by merit and tie-break rules]
     L[/Display scholarship merit list/]
     M([Stop])
-
+---
     A --> B
     B --> C
     C --> D
