@@ -1,8 +1,9 @@
 Problem Statement
 Write a Python program to validate student email addresses and registration identifiers according to specified formatting rules. Identify malformed separators, invalid character groups, and missing components.
+
+
+
  Algorithm
-
-
 1. Start.
 2. Read student email and registration ID.
 3. Check the email for @.
