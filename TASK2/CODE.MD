@@ -37,6 +37,8 @@ Write a Python program to calculate water bills for multiple households using co
 
 
 5. Sample Input
+
+
 Enter number of households: 2
 Enter household name: Ravi
 Enter water consumption: 80
@@ -45,6 +47,8 @@ Enter water consumption: 350
 
 
 6. Sample Output
+
+
 Household: Ravi
 Total Bill: Rs. 210
 Normal Usage
