@@ -10,9 +10,9 @@ Write a Python program to process transaction IDs and amounts. Detect duplicate 
 7. Check amount threshold violations.
 8. Display suspicious transactions.
 9. Stop.
-3. Flowchart 
-...(Mermaid) 
-
+3. Flowchart
+---mermaid
+flowchart TD
     A([Start]) --> B[/Enter number of transactions/]
     B --> C[/Enter transaction ID and amount/]
     C --> D[Store in list]
@@ -28,7 +28,7 @@ Write a Python program to process transaction IDs and amounts. Detect duplicate 
     K -- Yes --> G
     K -- No --> L[Display suspicious list]
     L --> M([Stop])
-...
+---
 
 5. Sample Input
 Enter number of transactions: 3
