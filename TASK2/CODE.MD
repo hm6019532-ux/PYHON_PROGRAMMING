@@ -1,6 +1,6 @@
-1. Problem Statement
+1. Problem Statement:
 Write a Python program to calculate water bills for multiple households using consumption slabs, fixed fees, and penalties. Compare consumption and identify excessive water usage.
-2. Algorithm
+2. Algorithm:
 1. Start.
 2. Read the number of households.
 3. Read household name and water consumption.
@@ -10,6 +10,8 @@ Write a Python program to calculate water bills for multiple households using co
 7. Display the total bill.
 8. Identify households with excessive usage.
 9. Stop.
+
+
 3. Flowchart 
 ..(Mermaid)
  
