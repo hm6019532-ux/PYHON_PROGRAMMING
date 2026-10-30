@@ -27,8 +27,8 @@ flowchart TD
     J --> K
     K -- Yes --> G
     K -- No --> L[Display suspicious list]
-    L --> M([Stop])
----
+    L --> M([Stop]) ---
+ 
 
 5. Sample Input
 Enter number of transactions: 3
