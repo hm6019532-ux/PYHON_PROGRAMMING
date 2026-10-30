@@ -10,7 +10,7 @@ Write a Python program to generate a hollow diamond pattern based on user-specif
 7. Stop.
 3. Flowchart 
 ..(Mermaid)
- flowchart TD
+ 
     A([Start]) --> B[/Enter diamond size/]
     B --> C{Size > 0?}
     C -- No --> D[Display Invalid Size]
