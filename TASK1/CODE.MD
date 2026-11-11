@@ -38,8 +38,8 @@ flowchart TD
     J{More applicants?}
     K[Sort eligible applicants by merit and tie-break rules]
     L[/Display scholarship merit list/]
-    M([Stop])
----
+    M([Stop])---
+
     A --> B
     B --> C
     C --> D
